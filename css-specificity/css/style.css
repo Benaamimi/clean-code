@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: palevioletred;
+}
+
+h1{
+    background-color: pink;
+    width: 500px;
+    padding: 20px;
+}

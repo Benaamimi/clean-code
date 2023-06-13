@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: rgb(12, 125, 232);
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    height: 400px;
+    margin: 50px auto;
+}
+
+.container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

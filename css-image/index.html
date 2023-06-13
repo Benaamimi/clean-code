@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CSS image responsive</title>
+</head>
+<body>
+    <div>
+        <h1>Les img responvives en css</h1>
+        <section class="container">
+            <img
+            srcset="
+                ./img/img-small.jpg 640w, 
+                ./img/img-med.jpg 1280w, 
+                ./img/img-large.jpg 1920w
+             "
+             sizes="80vw"
+            src="./img/img-large.jpg" alt="hollywood">
+        </section>
+        <section class="container">
+            <picture>
+                <source media="(max-width:640px)" srcset=" ./img/img-pont-small.jpg">
+                <source media="(max-width:1280px)" srcset=" ./img/img-med.jpg">
+                <source media="(max-width:1920px)"  srcset=" ./img/img-large.jpg">
+                <img src="./img/img-large.jpg" alt="image de Hollywood">
+            </picture>
+        </section>
+    </div>
+</body>
+</html>
