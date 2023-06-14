@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(167, 239, 143);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+h1{
+    font-size: 14vmin;
+    text-align: right;
+    margin-right: 50px;
+    color: blueviolet;
+}
+
+h2{
+    text-align: left;
+    /* margin-left: 20px; */
+    margin-top: 20px;
+    color: orange;
+}
+
+.pixel{
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    margin: 50px auto;
+}
+
+.child{
+    background-color: orange;
+    height: 25%;
+    width: 25%;
+    
+}
+
+.child-2{
+    background-color: orange;
+    height: 25vh;
+    width: 100vw;
+    margin: auto;
+    
+}
+
+.viewport{
+    background-color: darksalmon;
+    height: 35vw;
+    width: 35vw;
+}
+
+.txt-responsive{
+background-color: orange;
+width: 90%;
+min-height: 200px;
+margin: auto;
+}
+
+.les-vmin-vmax{
+width: 25vmin;
+height: 300px;
+background-color: orange;
+
+}
+
+.les-rem-em{
+    background-color: darksalmon;
+    font-size: 20px;
+    /* les em sont relatifs à la taille du texte courant "ici 20px" et "20em = 20 x 20px  */
+    height: 20em;
+    width: 20em;
+    padding: 1em;
+    /* les rem sont relatif à la taille du texte sur le navigateur par défaut "16px"  */
+}
